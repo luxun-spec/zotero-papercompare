@@ -1,0 +1,8 @@
+node_modules/
+work/
+dist/
+.superpowers/
+*.log
+*.pdf
+.env
+.env.*

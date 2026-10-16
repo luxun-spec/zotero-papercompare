@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "PaperCompare",
+  "version": "0.1.0",
+  "description": "Compare paper experiments with traceable PDF evidence. / 用可追溯的原文证据比较论文实验。",
+  "author": "PaperCompare contributors",
+  "applications": {
+    "zotero": {
+      "id": "papercompare@local.research",
+      "update_url": "https://github.com/luxun-spec/zotero-papercompare/releases/latest/download/updates.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}

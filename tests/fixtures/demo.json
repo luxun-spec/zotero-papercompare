@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "comparisons": [
+    {
+      "id": "01fefc12-259c-42e8-a1a6-617656221a51",
+      "name": "Integration demonstration",
+      "fields": [
+        {
+          "id": "0b879662-a529-4cf8-bbb7-f92520a7b905",
+          "name": "模型"
+        },
+        {
+          "id": "832a9537-456f-493c-a69a-0b8e2b9242ae",
+          "name": "GPU 配置"
+        },
+        {
+          "id": "5cdb99e2-880c-4066-8a68-3e8fcff6c7c1",
+          "name": "数值精度"
+        },
+        {
+          "id": "27f14c2c-a753-40b9-8894-307929b78a32",
+          "name": "数据集 / 工作负载"
+        },
+        {
+          "id": "7369f21b-9ca8-48cd-9e83-f7b4a18b67b5",
+          "name": "输入长度"
+        },
+        {
+          "id": "f30abeff-eda7-4ffb-9302-972b393b8638",
+          "name": "输出长度"
+        },
+        {
+          "id": "ea39e1f7-f237-48f5-a389-de325807c8bf",
+          "name": "吞吐量"
+        },
+        {
+          "id": "b8aa31d4-b489-4cd2-a27f-13cd9e69abc7",
+          "name": "延迟"
+        },
+        {
+          "id": "08f101e5-815e-470d-9712-835b2e0fd265",
+          "name": "其他条件"
+        }
+      ],
+      "rows": [
+        {
+          "id": "c6fc7408-c8d2-43d0-beac-47f8a825fd8e",
+          "paper": {
+            "libraryID": 1,
+            "itemKey": "MSIPEC3U",
+            "title": "Synthetic System 1",
+            "author": "Researcher",
+            "year": "2026"
+          },
+          "name": "实验 1",
+          "cells": {
+            "832a9537-456f-493c-a69a-0b8e2b9242ae": {
+              "value": "A100 40GB × 1",
+              "evidence": [
+                {
+                  "id": "WS3FT4MC-9DUDBX2B",
+                  "attachmentKey": "WS3FT4MC",
+                  "annotationKey": "9DUDBX2B",
+                  "quote": "GPU: A100 40GB.",
+                  "pageLabel": "1",
+                  "position": "{\"pageIndex\":0,\"rects\":[[72,760,170,775]]}"
+                },
+                {
+                  "id": "WS3FT4MC-5H9HILIA",
+                  "attachmentKey": "WS3FT4MC",
+                  "annotationKey": "5H9HILIA",
+                  "quote": "Throughput: 100 tokens/s.",
+                  "pageLabel": "1",
+                  "position": "{\"pageIndex\":0,\"rects\":[[172,760,270,775]]}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "82e202eb-bbb5-4c91-a300-1e61fd7f7b6c",
+          "paper": {
+            "libraryID": 1,
+            "itemKey": "VQ5TPGZN",
+            "title": "Synthetic System 2",
+            "author": "Researcher",
+            "year": "2026"
+          },
+          "name": "实验 1",
+          "cells": {}
+        },
+        {
+          "id": "a1f16000-77a3-4060-bee5-52390689a3f2",
+          "paper": {
+            "libraryID": 1,
+            "itemKey": "MSIPEC3U",
+            "title": "Synthetic System 1",
+            "author": "Researcher",
+            "year": "2026"
+          },
+          "name": "Long context",
+          "cells": {}
+        }
+      ],
+      "createdAt": "2026-10-16T00:49:48.425Z",
+      "updatedAt": "2026-10-16T00:49:49.560Z"
+    }
+  ]
+}

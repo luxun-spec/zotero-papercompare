@@ -1,0 +1,1 @@
+{"name":"zotero-papercompare","version":"0.1.0","private":true,"type":"module","license":"MIT","scripts":{"test":"node --experimental-strip-types --test tests/*.test.ts","typecheck":"tsc --noEmit","build":"node scripts/build.mjs"},"devDependencies":{"@types/node":"^26.6.5","esbuild":"^0.28.2","fflate":"^0.8.3","linkedom":"^0.18.13","typescript":"^7.0.2"}}
